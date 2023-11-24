@@ -47,7 +47,8 @@ const Search = () => {
           if (event.key === "Enter") {
             updateBestMatches();
           }
-        }}
+        }
+      }
       />
       {input && (
         <button onClick={clear} className="m-1">
